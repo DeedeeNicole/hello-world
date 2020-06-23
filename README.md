@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>Responsive Layout</title>
+<title>Our Menu</title>
 <style>
 
 /********** Base styles **********/
@@ -16,14 +15,14 @@ h1 {
 
 p {
   border: 1px solid black;
-  background-color: #A52A2A;
+  background-color: #d9d9d9;
   width: 90%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
-  font-family: Helvetica;
+  font-family: sans-serif;
   color: white;
-}
+  }
 
 /* Simple Responsive Framework. */
 .row {
@@ -34,7 +33,7 @@ p {
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, {
     float: left;
-    border: 1px solid green;
+    border: 1px black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -50,8 +49,8 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3; {
-    float: left;
-    border: 1px solid green;
+     float: left;
+    border: 1px black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -72,7 +71,7 @@ p {
 <div class="row">
   <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
   <div class="col-lg-3 col-md-6"><p>Item 2 Wow this is cool</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
+ <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
 </div>
 
 </body>
